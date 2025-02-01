@@ -94,7 +94,7 @@ docker build -t home-price-prediction-api .
 ### Run the Docker Container
 2. **Run the Docker Container**:
    ```code
-   docker run -p 50505:50505 home-price-prediction-api
+   docker run -p 50505:50505 --name home-price-api home-price-prediction-api
    ```
    This command maps port `50505` in the container to port `50505` on your host machine.
    
