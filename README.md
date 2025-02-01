@@ -100,6 +100,20 @@ docker build -t home-price-prediction-api .
    
 The application will be accessible at `http://localhost:50505/`.
 
+### Access the Container's Shell
+You can access the shell of the running Docker container to run commands as you would in your local terminal. This is useful for debugging, running tests, or managing files within the container.
+```code
+docker exec -it home-price-api /bin/bash
+```
+**Example Usage**:
+Once inside the container's shell, you can navigate the file system and execute commands for running unit tests, processing input files, and more, just like in a regular terminal session.
+```bash
+cd /app
+ls -la
+pytest tests/
+```
+To exit the container's shell, type `exit` or press `Ctrl + D`.
+
 ## Running Unit Tests
 The project includes unit tests to ensure the application works as expected.
 
