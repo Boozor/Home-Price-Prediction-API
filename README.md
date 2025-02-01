@@ -13,6 +13,7 @@ This README provides detailed instructions on how to set up and run the applicat
 * Running the Application with Docker
    * Build the Docker Image
    * Run the Docker Container
+   * Access the Container's Shell
 * Running Unit Tests
 * Interacting with the API
    * API Endpoint Details
