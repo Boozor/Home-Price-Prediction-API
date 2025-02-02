@@ -32,8 +32,8 @@ Before you begin, ensure you have the following software installed on your syste
   * **Python 3**: The application is built using Python 3.11.11 and Python 3.12.4.
   * **pip**: Python package manager to install dependencies.
   * **virtualenv / venv**: For creating an isolated Python environment.
-  * **Docker**: To build and run the application in a container (optional).
-  * **Git**: To clone the repository (if applicable).
+  * **Docker**: To build and run the application in a container.
+  * **Git**: To clone the repository.
 
 ## Project Structure (contained in the source directory)
 ```plaintext
