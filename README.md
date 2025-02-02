@@ -250,15 +250,6 @@ curl -X POST http://localhost:50505/predict \
 ]'
 ```
 
-**Using JSON Files**
-When using `curl`, you can pass the `@` symbol followed by the file path to include the contents of a file as the data payload.
-
-**Example**:
-```
-curl -X POST http://localhost:50505/predict \
-     -H "Content-Type: application/json" \
-     -d '{"LotArea": 8450, "YearBuilt": 2003, "1stFlrSF": 856, "2ndFlrSF": 854, "FullBath": 2, "BedroomAbvGr": 3, "TotRmsAbvGrd": 8}'
-```
 ## Notes
 * **Input Validation**: The API validates inputs for missing fields, data types, and value ranges. If any record fails validation, the API returns an error message indicating the issue.
 * **Batch Predictions**: The `/predict` endpoint supports batch predictions. You can send a list of records, and the API will return a list of predictions.
