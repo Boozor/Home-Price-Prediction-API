@@ -29,7 +29,7 @@ This README provides detailed instructions on how to set up and run the applicat
 ## Prerequisites
 Before you begin, ensure you have the following software installed on your system:
 
-  * **Python 3.7+**: The application is built using Python 3.
+  * **Python 3.7+**: The application is built using Python 3.11.11 and Python 3.12.4.
   * **pip**: Python package manager to install dependencies.
   * **virtualenv / venv**: For creating an isolated Python environment.
   * **Docker**: To build and run the application in a container (optional).
