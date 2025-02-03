@@ -1,10 +1,8 @@
-curl -X POST http://localhost:50505/predict \
-     -H "Content-Type: application/json" \
-     -d '{
-       "LotArea": 8450,
-       "YearBuilt": 2003,
-       "1stFlrSF": 856,
-       "2ndFlrSF": 854,
-       "FullBath": 2,
-       "TotRmsAbvGrd": 8
-     }'
+{
+  "LotArea": 8450,
+  "YearBuilt": 2003,
+  "1stFlrSF": 856,
+  "2ndFlrSF": 854,
+  "BedroomAbvGr": 3,
+  "TotRmsAbvGrd": 8
+}
