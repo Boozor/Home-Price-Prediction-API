@@ -41,6 +41,7 @@ Before you begin, ensure you have the following software installed on your syste
 ├── home_price_model.pkl    # Serialized machine learning model
 ├── features.json           # JSON file with expected input features and data types
 ├── requirements.txt        # Python dependencies
+├── source                  # Contains the data and code used to build the model.
 ├── tests/                  # Directory containing unit tests
 │   ├── __init__.py
 │   └── test_app.py         # Unit test file for the application
