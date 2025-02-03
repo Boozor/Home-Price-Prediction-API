@@ -35,7 +35,7 @@ Before you begin, ensure you have the following software installed on your syste
   * **Docker**: To build and run the application in a container.
   * **Git**: To clone the repository.
 
-## Project Structure (contained in the source directory)
+## Project Structure
 ```plaintext
 ├── app.py                  # Main Flask application
 ├── home_price_model.pkl    # Serialized machine learning model
