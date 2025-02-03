@@ -86,12 +86,18 @@ The application will start running on `http://0.0.0.0:50505/`.
 You can containerize and run the application using Docker.
 
 ### Build the Docker Image
-1. **Build the Docker Image**:
+1. **Option 1: Build from Local Directory**:
 
 Navigate to the project's root directory (where the `Dockerfile` is located) and run:
 ```code
 docker build -t home-price-prediction-api .
 ```
+2. **Option 2: Build Directly from GitHub (No Local Clone Required)**
+```bash
+docker build -t home-price-prediction-api https://github.com/Boozor/Home-Price-Prediction-API.git
+```
+**Notes**: Replace Boozor/Home-Price-Prediction-API.git with your repo URL if using a fork.
+
 ### Run the Docker Container
 2. **Run the Docker Container**:
    ```code
