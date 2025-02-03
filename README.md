@@ -76,7 +76,7 @@ Install the required Python packages using `pip`:
 ```code
 pip install -r requirements.txt
 ```
-## Run the Application
+### Run the Application
 Execute the Flask application:
 ```code
 python app.py
