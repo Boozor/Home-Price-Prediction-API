@@ -1,0 +1,20 @@
+[
+  {
+    "LotArea": 7500,
+    "YearBuilt": 2010,
+    "1stFlrSF": 920,
+    "2ndFlrSF": 880,
+    "FullBath": "two",
+    "BedroomAbvGr": 4,
+    "TotRmsAbvGrd": 9
+  },
+  {
+    "LotArea": 6200,
+    "YearBuilt": 1998,
+    "1stFlrSF": 780,
+    "2ndFlrSF": 760,
+    "FullBath": 1,
+    "BedroomAbvGr": 3,
+    "TotRmsAbvGrd": 7
+  }
+]

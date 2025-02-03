@@ -1,0 +1,9 @@
+{
+    "LotArea": "int",
+    "YearBuilt": "int",
+    "1stFlrSF": "int",
+    "2ndFlrSF": "int",
+    "FullBath": "int",
+    "BedroomAbvGr": "int",
+    "TotRmsAbvGrd": "int"
+}
